@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "guesstheflagmapackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hadiseh73/GuessTheFlagMaPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1c83996fce60c717d082e46f70ce35290b7dd65d"
+      }
+    }
+  ],
+  "version" : 2
+}

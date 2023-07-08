@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5580051A2A59317100D16E19 /* GuessTheFlagMaPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 558005192A59317100D16E19 /* GuessTheFlagMaPackage */; };
 		F3B5E34521EC2CB200D48258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5E34421EC2CB200D48258 /* AppDelegate.swift */; };
 		F3B5E34721EC2CB200D48258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5E34621EC2CB200D48258 /* ViewController.swift */; };
 		F3B5E34A21EC2CB200D48258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5E34821EC2CB200D48258 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5580051A2A59317100D16E19 /* GuessTheFlagMaPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = "Guess the Flag";
+			packageProductDependencies = (
+				558005192A59317100D16E19 /* GuessTheFlagMaPackage */,
+			);
 			productName = "Guess the Flag";
 			productReference = F3B5E34121EC2CB200D48258 /* Guess the Flag.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = F3B5E33821EC2CB200D48258;
+			packageReferences = (
+				558005182A59317100D16E19 /* XCRemoteSwiftPackageReference "GuessTheFlagMaPackage" */,
+			);
 			productRefGroup = F3B5E34221EC2CB200D48258 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		558005182A59317100D16E19 /* XCRemoteSwiftPackageReference "GuessTheFlagMaPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hadiseh73/GuessTheFlagMaPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		558005192A59317100D16E19 /* GuessTheFlagMaPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 558005182A59317100D16E19 /* XCRemoteSwiftPackageReference "GuessTheFlagMaPackage" */;
+			productName = GuessTheFlagMaPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3B5E33921EC2CB200D48258 /* Project object */;
 }
